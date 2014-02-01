@@ -1,0 +1,37 @@
+#+Title: LaTeX3 Concepts
+#+Author: Sean Allred (summarizing official descriptions)
+#+Date: [2014-02-01 Sat]
+
+* Architecture
+** Glossary
+- object :: A high-level document concept, such as =heading=, =list=, or =float=.
+- template :: A mid-level document concept that are specific use cases of *objects*, such as =section=, =subsection=, =enumerate=, =itemize=, =table=, and =figure=.
+- instance :: A user-level document concept that implements a given template by specifying its parameters.
+** Entities
+- template library :: A collection of templates defined jointly by the programmer and document designer.
+- document class realization :: A collection of instances.
+- document type specification :: ... ?
+- UI representation :: Any single mark-up manifestation of the *document type specification*.
+- document :: The end product.
+** Roles
+- author :: Responsible for authoring the document.
+     Uses the UI representation designed by the *document type designer*.
+- document type designer :: Responsible for the high-level logical components of the document.
+     Defines object types with =\DeclareObjectType= (for the *document designer*) and creates the document type specification.
+- document designer :: Responsible for the details of the document's visual manifestation and user interface.
+     Defines the document class realization using a list of declared data types (written by the *document type designer*),
+       declaring templates with =\DeclareTemplateInterface= and instances and =\DeclareInstance= (to be used by the *author*).
+- programmer :: Responsible for the implementation of templates.
+     Writes template implementations for the *document designer* using =expl3= and =\DeclareTemplateCode=.
+** Layers
+- core language layer :: =expl3=
+- typesetting foundation layer :: =expl3=, =xtemplate=
+- designer interface foundation layer :: =xtemplate=
+- class design layer :: =xtemplate=
+- user interface foundation layer :: =xparse=, =xtemplate=
+* References
+[[http://latex-project.org/papers/2013-10-24-latex3.pdf][LaTeX3: Using the Layers]]
+[[http://tex.stackexchange.com/a/118015/17423][The Concepts Explained]]
+
+#  LocalWords:  xtemplate xparse UI DeclareObjectType DeclareInstance
+#  LocalWords:  DeclareTemplateInterface expl DeclareTemplateCode
