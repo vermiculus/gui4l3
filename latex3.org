@@ -30,8 +30,8 @@
 - class design layer :: =xtemplate=
 - user interface foundation layer :: =xparse=, =xtemplate=
 * References
-[[http://latex-project.org/papers/2013-10-24-latex3.pdf][LaTeX3: Using the Layers]]
-[[http://tex.stackexchange.com/a/118015/17423][The Concepts Explained]]
+- [[http://latex-project.org/papers/2013-10-24-latex3.pdf][LaTeX3: Using the Layers]]
+- [[http://tex.stackexchange.com/a/118015/17423][The Concepts Explained]]
 
 #  LocalWords:  xtemplate xparse UI DeclareObjectType DeclareInstance
 #  LocalWords:  DeclareTemplateInterface expl DeclareTemplateCode
