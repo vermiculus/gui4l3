@@ -1,1 +1,56 @@
-Graphical User Interface for Documents using LaTeX3
+#+Title: Graphical User Interface for Documents using LaTeX3
+#+Author: Sean Allred
+#+Date: [2014-01-31 Fri]
+
+* Introduction
+This project is an experiment in leveraging LaTeX3 concepts to create
+a simple author/document-designer interface for creating correct,
+structured, and tweakable documents.
+
+The project arises out of a question I asked on the LaTeX-L mailing
+list.  Frank Mittelbach raised some excellent, high-level, and
+achievable goals for a project such as this; these are discussed in
+[[*Goals]].  In the same thread, Paulo Cerada raises equally excellent
+concerns that this project must take care to avoid or otherwise
+address; these are discussed in [[*Roadblocks]].
+* Goals
+** Ingest Raw LaTeX3 Document-Element Specifications
+The greatest distinct of LaTeX3 is the solid definition of layers.
+These layers are what make a project such as this feasible.
+*** Author Interface
+- document class definition layer :: a collection of author interfaces
+     ('abstract spec') that are appropriate for this class
+
+- document class realization layer :: a set of realizations for
+     each abstract spec defined in the class definition layer
+
+This project must be able understand the syntax of template
+specifications as used in definition layer.  The project must also be
+able to discover and load any number of realization layers to choose
+from and optionally tweak.
+
+- ingest document class definition layer specification and logically
+  understand such a specification enough to interactively provide
+  graphical means to interact with it
+- ingest document class realization layer specification (and included
+  templates) and logically understand such a specification enough to
+  interactively provide graphical means to tweak
+*** Document Designer Interface
+- object type repository :: ...
+- template repository :: ...
+- instance creation :: ...
+* Roadblocks
+** Do /not/ create a compiler!
+This project is /not/ LyX.  LyX's implementation involves a separate,
+LaTeX-inspired languages as its code-behind.  This project aims solely
+to interpret LaTeX3 definitions (and exactly those definitions which
+would not be considered Turing-complete---objects, templates,
+instances, and finally author-uses).
+
+Thus, the code is not generated in the same sense as LyX generates
+LaTeX code.  While LyX does not work with LaTeX directly, this project
+does.  LaTeX3 provides simple-enough syntax as far as the author and
+document-designer are concerned, and these two roles are the extent of
+this project's scope.
+* Further Reading
+- [[http://latex-project.org/papers/2013-10-24-latex3.pdf][LaTeX3: Using the Layers]]
