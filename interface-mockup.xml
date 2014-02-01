@@ -1,0 +1,273 @@
+<!-- Balsamiq Mockup: http://builds.balsamiq.com/b/mockups-web-demo -->
+<mockup version="1.0" skin="wireframe" fontFace="_sans" measuredW="973" measuredH="795" mockupW="963" mockupH="790">
+  <controls>
+    <control controlID="44" controlTypeID="__group__" x="10" y="431" w="963" h="364" measuredW="963" measuredH="364" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="246" y="0" w="450" h="364" measuredW="450" measuredH="364" zOrder="0" locked="false" isInGroup="44">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="450" h="364" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <close>true</close>
+                <dragger>true</dragger>
+                <maximizeRestore>true</maximizeRestore>
+                <minimize>true</minimize>
+                <text>LaTeX3%3A%20Designer%20Mode</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="5" y="31" w="445" h="302" measuredW="445" measuredH="302" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="__group__" x="150" y="0" w="295" h="302" measuredW="295" measuredH="302" zOrder="0" locked="false" isInGroup="1">
+                  <groupChildrenDescriptors>
+                    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="295" h="302" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0">
+                      <controlProperties>
+                        <verticalScrollbar>true</verticalScrollbar>
+                      </controlProperties>
+                    </control>
+                    <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="10" y="210" w="264" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="0"/>
+                    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="92" y="251" w="-1" h="-1" measuredW="102" measuredH="24" zOrder="2" locked="false" isInGroup="0">
+                      <controlProperties>
+                        <text>New%20Template</text>
+                      </controlProperties>
+                    </control>
+                    <control controlID="3" controlTypeID="__group__" x="10" y="6" w="264" h="97" measuredW="264" measuredH="97" zOrder="3" locked="false" isInGroup="0">
+                      <groupChildrenDescriptors>
+                        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="264" h="97" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>section</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBox" x="102" y="18" w="-1" h="-1" measuredW="16" measuredH="21" zOrder="1" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <state>selected</state>
+                            <text/>
+                          </controlProperties>
+                        </control>
+                        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="102" y="39" w="-1" h="-1" measuredW="157" measuredH="24" zOrder="2" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>2ex%20plus%20.2ex%20minus%20.2ex</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="24" y="17" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="3" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>numbered</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="102" y="63" w="-1" h="-1" measuredW="63" measuredH="24" zOrder="4" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>Large</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="28" y="41" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="5" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>after-skip</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="57" y="64" w="-1" h="-1" measuredW="25" measuredH="21" zOrder="6" locked="false" isInGroup="3">
+                          <controlProperties>
+                            <text>size</text>
+                          </controlProperties>
+                        </control>
+                      </groupChildrenDescriptors>
+                    </control>
+                    <control controlID="4" controlTypeID="__group__" x="10" y="107" w="264" h="97" measuredW="264" measuredH="97" zOrder="4" locked="false" isInGroup="0">
+                      <groupChildrenDescriptors>
+                        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="264" h="97" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>subsection*</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBox" x="102" y="18" w="-1" h="-1" measuredW="16" measuredH="21" zOrder="1" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <state>up</state>
+                            <text/>
+                          </controlProperties>
+                        </control>
+                        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="102" y="39" w="-1" h="-1" measuredW="157" measuredH="24" zOrder="2" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>1ex%20plus%20.1ex%20minus%20.1ex</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="24" y="17" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="3" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>numbered</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="102" y="63" w="-1" h="-1" measuredW="59" measuredH="24" zOrder="4" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>large</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="28" y="41" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="5" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>after-skip</text>
+                          </controlProperties>
+                        </control>
+                        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="57" y="64" w="-1" h="-1" measuredW="25" measuredH="21" zOrder="6" locked="false" isInGroup="4">
+                          <controlProperties>
+                            <text>size</text>
+                          </controlProperties>
+                        </control>
+                      </groupChildrenDescriptors>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="0" w="150" h="302" measuredW="150" measuredH="225" zOrder="1" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <selectedIndex>2</selectedIndex>
+                    <text>list%0Aheading%0A-%20display%20head%0A-%20run-in%20head%0Afloat</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="591" y="0" w="372" h="156" measuredW="372" measuredH="156" zOrder="1" locked="false" isInGroup="44">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::StickyNote" x="169" y="0" w="203" h="156" measuredW="109" measuredH="123" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>%28using%20%60xtemplate%60%20lingo%29%0A%20%0Agenerated%20from%20object%20definitions%2C%20these%20forms%20would%20use%20the%20%22key%22%20for%20each%20label%20and%20the%20%22key%20type%22%20for%20the%20user%20control.</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Arrow" x="0" y="15" w="169" h="61" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <direction>bottom</direction>
+                <text/>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="0" y="62" w="246" h="152" measuredW="246" measuredH="152" zOrder="2" locked="false" isInGroup="44">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::StickyNote" x="0" y="103" w="200" h="49" measuredW="109" measuredH="123" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>populated%20from%20the%20object%20and%20template%20repository</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Arrow" x="96" y="0" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <direction>bottom</direction>
+                <text/>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="51" controlTypeID="__group__" x="10" y="5" w="912" h="411" measuredW="912" measuredH="411" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="275" y="49" w="637" h="295" measuredW="637" measuredH="295" zOrder="0" locked="false" isInGroup="51">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::VCurly" x="511" y="0" w="126" h="295" measuredW="180" measuredH="140" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>LyX-like%20interface%0A%28pun%20intended%29</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="0" w="511" h="295" measuredW="511" measuredH="295" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="511" h="295" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <bottomheight>24</bottomheight>
+                    <close>true</close>
+                    <dragger>true</dragger>
+                    <maximizeRestore>true</maximizeRestore>
+                    <minimize>true</minimize>
+                    <text>LaTeX3%3A%20Author%20Mode</text>
+                    <topheight>26</topheight>
+                    <value>0</value>
+                    <verticalScrollbar>false</verticalScrollbar>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="__group__" x="0" y="23" w="511" h="86" measuredW="511" measuredH="86" zOrder="2" locked="false" isInGroup="1">
+                  <groupChildrenDescriptors>
+                    <control controlID="0" controlTypeID="com.balsamiq.mockups::MenuBar" x="0" y="0" w="511" h="21" measuredW="320" measuredH="21" zOrder="0" locked="false" isInGroup="1">
+                      <controlProperties>
+                        <selectedIndex>2</selectedIndex>
+                        <text>File%2C%20Edit%2C%20Element%2C%20Markup%2C%20View%2C%20Help</text>
+                      </controlProperties>
+                    </control>
+                    <control controlID="1" controlTypeID="com.balsamiq.mockups::Menu" x="91" y="21" w="86" h="-1" measuredW="150" measuredH="65" zOrder="1" locked="false" isInGroup="1">
+                      <controlProperties>
+                        <selectedIndex>0</selectedIndex>
+                        <text>list%20%3E%0Aheading%20%3E%0Afloat%20%3E</text>
+                      </controlProperties>
+                    </control>
+                    <control controlID="2" controlTypeID="com.balsamiq.mockups::Menu" x="177" y="21" w="86" h="-1" measuredW="150" measuredH="65" zOrder="2" locked="false" isInGroup="1">
+                      <controlProperties>
+                        <text>itemize%0Aenumerate%0Adescription</text>
+                      </controlProperties>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="2" controlTypeID="__group__" x="0" y="43" w="511" h="29" measuredW="511" measuredH="29" zOrder="1" locked="false" isInGroup="1">
+                  <groupChildrenDescriptors>
+                    <control controlID="0" controlTypeID="com.balsamiq.mockups::FormattingToolbar" x="0" y="0" w="511" h="-1" measuredW="261" measuredH="29" zOrder="0" locked="false" isInGroup="2"/>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="3" controlTypeID="__group__" x="0" y="112" w="511" h="160" measuredW="511" measuredH="160" zOrder="3" locked="false" isInGroup="1">
+                  <groupChildrenDescriptors>
+                    <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="56" w="511" h="104" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="3">
+                      <controlProperties>
+                        <backgroundAlpha>1</backgroundAlpha>
+                        <borderColor>6710886</borderColor>
+                        <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident%2C%20sunt%20in%20culpa%20qui%20officia%20deserunt%20mollit%20anim%20id%20est%20laborum.</text>
+                        <verticalScrollbar>true</verticalScrollbar>
+                      </controlProperties>
+                    </control>
+                    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="215" y="0" w="81" h="-1" measuredW="74" measuredH="41" zOrder="1" locked="false" isInGroup="3">
+                      <controlProperties>
+                        <text>Title</text>
+                      </controlProperties>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="482" y="114" w="404" h="297" measuredW="404" measuredH="297" zOrder="1" locked="false" isInGroup="51">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Arrow" x="56" y="0" w="139" h="257" measuredW="150" measuredH="100" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="0" y="260" w="404" h="37" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>templates%20populated%20from%20document-class%20definition%20layer</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="401" y="0" w="297" h="72" measuredW="297" measuredH="72" zOrder="2" locked="false" isInGroup="51">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Arrow" x="0" y="21" w="89" h="51" measuredW="150" measuredH="100" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <direction>bottom</direction>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="89" y="0" w="208" h="42" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>sorted%20by%20base%20object</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="__group__" x="0" y="103" w="275" h="91" measuredW="275" measuredH="91" zOrder="3" locked="false" isInGroup="51">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Arrow" x="117" y="0" w="158" h="52" measuredW="150" measuredH="100" zOrder="0" locked="false" isInGroup="3">
+              <controlProperties>
+                <direction>bottom</direction>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="0" y="52" w="221" h="39" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>common%20textual%20markup%20%28emph%2C%20etc.%29</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
